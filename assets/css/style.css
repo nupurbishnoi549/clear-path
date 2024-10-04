@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+.font-lato {
+    font-family: Lato;
+}
+
+.font-messiri {
+    font-family: El Messiri;
+}
+
+.card-box:hover {
+    background-color: #1B3353;
+
+    .card-text {
+        color: white;
+    }
+}
+
+.sec-3-bg-img {
+    background-image: url(../images/sec-3-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1210px;
+    min-height: 465px;
+    border-radius: 22px;
+}
+
+.card-box:hover .box {
+    box-shadow: 0px 0px 3.3px 0px #1B335333;
+    background: #FEFEFE;
+}
+
+.card-box:hover .box svg path {
+    fill: #1B3353;
+}
