@@ -11,10 +11,10 @@
 
 .card-box:hover {
     background-color: #1B3353;
+}
 
-    .card-text {
-        color: white;
-    }
+.card-text {
+    color: white;
 }
 
 .sec-3-bg-img {
@@ -34,4 +34,7 @@
 
 .card-box:hover .box svg path {
     fill: #1B3353;
+}
+.text-color{
+    color: #1B3353;
 }

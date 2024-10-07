@@ -1,4 +1,6 @@
- function toggleAccordion(index) {
+// Accordian JS
+
+function toggleAccordion(index) {
             const content = document.getElementById('content' + index);
     const plusIcon = content.previousElementSibling.querySelector('.accordion-icon-plus');
     const minusIcon = content.previousElementSibling.querySelector('.accordion-icon-minus');
