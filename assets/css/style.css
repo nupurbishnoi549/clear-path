@@ -18,13 +18,7 @@
 
 
 .sec-3-bg-img {
-    background-image: url(../images/sec-3-bg-img.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 1210px;
-    min-height: 465px;
-    border-radius: 22px;
+    background-image: url("../images/sec-3-bg-img.webp");
 }
 
 .card-box:hover .box {
